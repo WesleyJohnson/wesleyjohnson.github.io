@@ -1,0 +1,41 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    position: relative;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 2px #000;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    display: table;
+}
+
+#box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#box img {
+    border: 1px solid #333;
+    box-shadow: 10px 10px 8px #333;
+}
+
+#footer {
+    height: 60px;
+    text-align: center;
+}
