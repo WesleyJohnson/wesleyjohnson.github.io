@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <title>Wesley Johnson</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="google-site-verification" content="xPVl3EB6xZ87Jtwge4B77spaXIOvXlMvtnvaZSI65QM" />
@@ -13,7 +14,7 @@
         <!-- Wrap all page content here -->
         <div id="wrap">
             <div id="box">
-                <img src="https://pbs.twimg.com/profile_images/551261387121389568/2BKZcyFz_400x400.jpeg" class="img-rounded">
+                <img src="https://graph.facebook.com/580056353/picture?type=large" alt="Facebook Profile Picture">
                 <h1>Hi, I'm Wesley Johnson</h1>
                 <h2>
                     I make things.
@@ -44,41 +45,6 @@
             </div>
         </div>
 
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        <script>
-            $(function(){
-                $('.nav li').click(function(e){
-                    var $this = $(this);
-                    if(!$this.hasClass('active')) {
-                        $('.nav li').removeClass('active');
-                        $('#wrap>.container').hide();
-
-                        $this.addClass('active');
-                        $($this.find('a').attr('href')).show();
-                    }
-                })
-
-                $('#home div p a').click(function(e){
-                    var $this = $(this);
-                    if(!$this.hasClass('active')) {
-                        $('.nav li').removeClass('active');
-                        $('#wrap>.container').hide();
-
-                        $('.nav li').each(function(){
-                            if($($(this).find('a')[0]).attr('href') == $this.attr('href')) {
-                                $(this).addClass('active');
-                            }
-                        })
-                        $($this.attr('href')).show();
-                    }
-                })
-            });
-        </script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
