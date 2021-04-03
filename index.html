@@ -6,49 +6,79 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="google-site-verification" content="xPVl3EB6xZ87Jtwge4B77spaXIOvXlMvtnvaZSI65QM" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet">
-        <link href="static/css/styles.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/5999a00fcc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css" integrity="sha512-paVHVRRhdoOu1nOXKnqDC1Vka0nh7FAmU3nsM4n2FKxOQTeF6crMdMfkVvEsuaOXZ6oEAVL5+wLbQcule/Xdag==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     </head>
-    <body>
-        <!-- Wrap all page content here -->
-        <div id="wrap">
-            <div id="box">
-                <h1>Hi, I'm Wesley Johnson</h1>
-                <img src="/static/img/avatar.jpg" alt="Facebook Profile Picture" style="with: 300px; height: 300px">
-                <h2>
-                    Father. Husband. Full stack Developer. Order by rand().
-                </h2>
-                <br>
-                <div>
-                    <a href="http://www.linkedin.com/in/wesleytjohnson" title="LinkedIN Profile" rel="me">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="http://www.twitter.com/wesleyjohnson" title="Twitter Profile" rel="me">
-                        <i class="fab fa-twitter-square"></i>
-                    </a>
-                    <a href="http://stackoverflow.com/users/187538/wesleyjohnson" title="Stack Overflow Profile" rel="me">
-                        <i class="fab fa-stack-overflow"></i>
-                    </a>
-                    <a href="http://www.facebook.com/wesleyjohnson" title="Facebook Profile" rel="me">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="http://github.com/WesleyJohnson" title="Github Profile" rel="me">
-                        <i class="fab fa-github-square"></i>
-                    </a>
-                    <a href="http://news.ycombinator.com/user?id=WesleyJohnson" title="HackerNews Profile" rel="me">
-                        <i class="fab fa-y-combinator"></i>
-                    </a>
-                    <a href="https://www.khanacademy.org/profile/WesleyJohnson/projects" title="Khan Academy Profile" rel="me">
-                        KA
-                    </a>
-                    <br>
-                    <br>
-                    <strong>
-                        <a href="https://indielog.com/user/wesleyjohnson" title="IndieLog Profile" rel="me">I'm on IndieLog!</a>
-                    </strong>
+    <body class="flex justify-center items-start bg-blue-500">
+
+        <div class="bg-gray-200 shadow-2xl w-11/12 md:w-6/12 lg:w-5/12 mt-20 border border-gray-400 p-2">
+            <div class="text-gray-700 text-6xl flex justify-start items-center border-b">
+                <img class="w-28 rounded" src="/static/img/avatar.jpg" alt="Facebook Profile Picture">
+                <div class="flex flex-col justify-center items-start">
+                    <div class="flex justify-center items-center">
+                        <a href="http://www.twitter.com/wesleyjohnson" title="Twitter Profile" rel="me">
+                            <i class="fab fa-twitter-square mx-1"></i>
+                        </a>
+                        <a href="http://www.linkedin.com/in/wesleytjohnson" title="LinkedIN Profile" rel="me">
+                            <i class="fab fa-linkedin mx-1"></i>
+                        </a>
+                        <a href="http://stackoverflow.com/users/187538/wesleyjohnson" title="Stack Overflow Profile" rel="me">
+                            <i class="fab fa-stack-overflow mx-1"></i>
+                        </a>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <a href="http://www.facebook.com/wesleyjohnson" title="Facebook Profile" rel="me">
+                            <i class="fab fa-facebook-square mx-1"></i>
+                        </a>
+                        <a href="http://github.com/WesleyJohnson" title="Github Profile" rel="me">
+                            <i class="fab fa-github-square mx-1"></i>
+                        </a>
+                        <a href="http://news.ycombinator.com/user?id=WesleyJohnson" title="HackerNews Profile" rel="me">
+                            <i class="fab fa-y-combinator mx-1"></i>
+                        </a>
+                    </div>
                 </div>
+            </div>
+
+            <hr class="border-dashed border-b-1 border-blue-400 my-4 p-0">
+
+            <div class="px-2">
+                <p class="font-mono font-bold text-lg">
+                    Hi, I'm Wes.
+                </p>
+                <p class="mt-4">
+                    My pronouns are he/him/his. I'm a husband, a father. I love to sing, watch movies & stand-up,
+                    tinker around the house, and snuggle with my kids.
+                </p>
+                <p class="mt-4 font-mono font-bold text-lg">
+                    I also make things for the web.
+                </p>
+                <p class="mt-4 font-mono text-sm">
+                    I've been at it for a while <em class="text-white-500">(did you see the gray beard?)</em>,
+                    and I'm pretty decent. I don't like terms like
+                    <span class="font-bold">rock <i class="fa fa-star text-yellow-500"></i></span> or
+                    <span class="font-bold">&lt;insert framework&gt; ninja</span>, but I've done some
+                    things.
+                </p>
+                <p class="mt-4 font-mono text-sm">
+                    I <i class="fa fa-heart text-red-500"></i> programming.
+                    Seriously, I <i class="fa fa-heart text-red-500"></i> <i class="fa fa-heart text-red-500"></i> it.
+                    I try to keep my skills fairly current. I speak these things...
+                </p>
+                <ul class="mt-4 font-mono text-sm font-bold">
+                    <li>Python (Django, DRF)</li>
+                    <li>JavaScript (React, jQuery, Vanilla)</li>
+                    <li>SQL (MySQL, SQL Server, Access)</li>
+                    <li>PHP</li>
+                    <li>C# (ASP.NET)</li>
+                    <li>Clojure, ClojureScript</li>
+                    <li>HTML, CSS</li>
+                    <li>DevOps</li>
+                </ul>
+                <p class="mt-4 font-mono text-sm">
+                    I'm not actively looking for work, but I am always looking to talk shop. Hit me up on
+                    <a href="https://twitter.com/wesleyjohnson" class="font-bold text-blue-600">twitter</a> if you want to chat.
+                </p>
             </div>
         </div>
 
